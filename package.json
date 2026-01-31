@@ -1,0 +1,29 @@
+{
+  "name": "soso-cli",
+  "version": "1.0.0",
+  "description": "Private package manager for internal JavaScript projects",
+  "main": "index.js",
+  "bin": {
+    "soso": "bin/soso.js"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "package-manager",
+    "private",
+    "registry",
+    "npm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.5.4",
+    "chalk": "^4.1.2",
+    "tar": "^6.2.0",
+    "@soso/utils": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
