@@ -9,7 +9,7 @@ To install, publish, update packages, you'll need the pre-requesites below
 ## How to install?
 First, clone the repo:
 ```bash
-git clone https://github.com/Nitogx/soso-ppm
+git clone --branch master --single-branch https://github.com/Nitogx/soso-ppm.git
 ```
 Then, inside the repo folder, install the required packages:
 ```bash
