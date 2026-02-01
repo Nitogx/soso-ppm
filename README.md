@@ -7,6 +7,7 @@ To install, publish, update packages, you'll need the pre-requesites below
 - Node.js (https://nodejs.org)
 - Git (https://git-scm.com/)
 ## How to install?
+### From Source
 First, clone the repo:
 ```bash
 git clone --branch master --single-branch https://github.com/Nitogx/soso-ppm.git
@@ -19,7 +20,12 @@ And lastly, link it:
 ```console
 npm link
 ```
-### How to use it?
+### Using the official node package
+```bash
+npm i -g soso-ppm
+```
+
+## How to use it?
 In a new terminal run:
 ```bash
 soso -h 
