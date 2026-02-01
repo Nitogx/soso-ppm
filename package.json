@@ -1,6 +1,6 @@
 {
   "name": "soso-ppm",
-  "version": "2.5.5",
+  "version": "2.5.51",
   "description": "Package manager made using nodejs",
   "main": "index.js",
   "bin": {
