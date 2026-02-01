@@ -6,6 +6,7 @@ const { publish } = require('../lib/commands/publish');
 const { update } = require('../lib/commands/update');
 const { info } = require('../lib/commands/info');
 const { clean } = require('../lib/commands/clean');
+const { run } = require('../lib/commands/run');
 const { printHelp, printVersion } = require('../lib/utils/help');
 const { enableDebug } = require('../lib/utils/logger');
 
@@ -45,6 +46,10 @@ async function main() {
           console.error('Unknown cache command. Use: soso cache clean');
           process.exit(1);
         }
+        break;
+      
+      case 'run':
+        await run(args.slice(1));
         break;
       
       case 'version':
