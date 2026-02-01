@@ -1,6 +1,6 @@
 {
   "name": "soso-ppm",
-  "version": "2.4.8",
+  "version": "2.5.5",
   "description": "Package manager made using nodejs",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,6 @@
   ],
   "author": "Nitogx",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/Nitogx/soso-ppm.git"
@@ -25,8 +24,7 @@
   "bugs": {
     "url": "https://github.com/Nitogx/soso-ppm/issues"
   },
-  "homepage": "https://github.com/Nitogx/soso-ppm#readme",
-
+  "homepage": "https://github.com/Nitogx/soso-ppm/tree/master",
   "dependencies": {
     "semver": "^7.5.4",
     "chalk": "^4.1.2",
